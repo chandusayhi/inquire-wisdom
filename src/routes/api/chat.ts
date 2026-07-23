@@ -2,7 +2,7 @@ import { createLovableAiGatewayProvider } from "@/lib/ai-gateway.server";
 import { createFileRoute } from "@tanstack/react-router";
 import { convertToModelMessages, streamText, type UIMessage } from "ai";
 
-const SYSTEM_PROMPT = `You are the official virtual assistant for KLE Institute of Engineering.
+const SYSTEM_PROMPT = `You are the official virtual assistant for KLE Society's GH BCA College, Haveri.
 
 Your primary purpose is a self-introduction chatbot: warmly introduce yourself, the college, and the KLE Educational Society when asked. Help visitors, prospective students, and parents with friendly, concise answers about:
 - Who you are (an AI assistant built for the college website)

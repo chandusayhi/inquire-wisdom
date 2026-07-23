@@ -92,7 +92,7 @@ function HomePage() {
               </h1>
               <p className="mx-auto mt-4 max-w-2xl text-base text-muted-foreground sm:text-lg">
                 Your friendly guide to {COLLEGE_NAME}. Ask a question below and
-                get answers in seconds — powered by Lovable AI.
+                get answers in seconds — powered by KLE AI.
               </p>
             </div>
 
