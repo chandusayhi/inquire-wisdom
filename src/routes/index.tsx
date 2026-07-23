@@ -5,8 +5,8 @@ import collegeLogo from "@/assets/college-logo.png";
 import heroBg from "@/assets/hero-bg.jpg";
 import { Toaster } from "@/components/ui/sonner";
 
-const COLLEGE_NAME = "KLE Institute of Engineering";
-const COLLEGE_TAGLINE = "Scientia · Labor · Progressus";
+const COLLEGE_NAME = "KLE Society's GH BCA College, Haveri";
+const COLLEGE_TAGLINE = "Learn · To · Progress";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -85,7 +85,7 @@ function HomePage() {
             <div className="mb-8 text-center">
               <span className="inline-flex items-center gap-2 rounded-full border border-border/70 bg-surface px-3 py-1 text-xs font-medium text-muted-foreground backdrop-blur">
                 <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-                AI-powered · Available 24/7
+                AI That Never Sleeps . Your Campus AI Assistant
               </span>
               <h1 className="mt-4 font-display text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
                 Meet the <span className="gold-text">College AI</span> Assistant
@@ -120,7 +120,7 @@ function SiteHeader() {
 
         <div className="min-w-0 flex-1 text-center">
           <p className="text-[10px] font-medium uppercase tracking-[0.18em] text-primary/80 sm:text-xs">
-            KLE Educational Society
+            KLE SOCIETY's
           </p>
           <h2 className="truncate font-display text-base font-bold tracking-tight text-foreground sm:text-xl md:text-2xl">
             {COLLEGE_NAME}
@@ -147,7 +147,7 @@ function SiteFooter() {
     <footer className="border-t border-border/40 px-6 py-6 text-center text-xs text-muted-foreground">
       <p>
         © {new Date().getFullYear()} {COLLEGE_NAME} · Built with care · Powered
-        by Lovable AI
+        by KLE Team
       </p>
     </footer>
   );
